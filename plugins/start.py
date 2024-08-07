@@ -84,7 +84,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('🍁 ᴘʀᴇᴍɪᴜᴍ', url='https://t.me/OtakuFlix_Network/4639')
+                    InlineKeyboardButton('🍁 ʀᴇQᴜᴇꜱᴛ', url='https://t.me/Hindi_animes_group')
                 ]
             ]
                 )
@@ -118,7 +118,8 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton(text="Join Channel", url=client.invitelink),
-            InlineKeyboardButton(text="Join Channel", url=client.invitelink2),
+            InlineKeyboardButton(text="Join Group", url=client.invitelink2),
+            InlineKeyboardButton(text="Join Channel(extra)", url=f"https://t.me/+wY6egAkf6hUxNjNl"),
         ]
     ]
     try:
